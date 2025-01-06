@@ -1,10 +1,10 @@
-import { View } from "react-native";
-import ConditionalStatement from "../components/ConditionalStatement";
+import { Text, View } from "react-native";
+import ColorPicker from "../components/Projects/ColorPicker";
 
 const Index = () => {
   return (
     <View>
-      <ConditionalStatement />
+      <ColorPicker />
     </View>
   );
 };
