@@ -1,10 +1,10 @@
 import { Text, View } from "react-native";
-import ColorPicker from "../components/Projects/ColorPicker";
+import Profile from "../components/Projects/Profile";
 
 const Index = () => {
   return (
     <View>
-      <ColorPicker />
+      <Profile />
     </View>
   );
 };
